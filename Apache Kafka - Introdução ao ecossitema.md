@@ -49,6 +49,16 @@ Permite um fluxo contínuo e interpretável dos dados para que as informações 
 * **Processamento** de fluxos de eventos em tempo real e em retrospectiva
 * Direcionamento dos fluxos de eventos para **diferentes destinos**
 
+![](imagens/streaming.drawio.svg)
+
+<!-- footer: '' -->
+
+---
+
+# _Streams_ e tabelas
+
+![](imagens/stream-table-duality.drawio.svg)
+
 <!-- footer: '' -->
 
 ---
@@ -71,6 +81,7 @@ Uma estrutura de dados que permite escalabilidade no tratamento de eventos é o 
 <!-- footer: '' -->
 
 ---
+
 
 # Casos de uso comuns
 
@@ -107,7 +118,7 @@ Escalável, tolerante a falhas, distribuído, seguro, _free_/_open source_, impl
     * _Producer API_: entrada de dados
     * _Consumer API_: saída de dados
     * _Kafka Streams API_: transformação de dados
-    * _Kafka Connect API_: criação e utilização de componentes reusáveis para casos de uso comuns de produção e consumo
+    * _Kafka Connect API_: casos de uso comuns de produção e consumo
 - _Apache ZooKeeper_: coordenação do _cluster_
 
 <!-- footer: '' -->
@@ -241,6 +252,7 @@ REST API para clientes não nativos
 _Confluent Community_
 
 <!-- footer: '[Docs](https://docs.confluent.io/platform/current/kafka-rest/index.html)' -->
+
 ---
 
 # ksqlDB
